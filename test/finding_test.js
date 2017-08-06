@@ -9,7 +9,7 @@ describe('Finding records from the database', function(){
   beforeEach(function(done){
     char = new MarioChar({
       name:'gamweb',
-      weight: 40
+      weight: 55
     });
 
     char.save().then(function(){
