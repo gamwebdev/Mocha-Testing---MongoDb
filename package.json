@@ -1,0 +1,21 @@
+{
+  "name": "mongoddb",
+  "version": "1.0.0",
+  "description": "db learning",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "mongo",
+    "database"
+  ],
+  "author": "utkarsh bajpai",
+  "license": "ISC",
+  "dependencies": {
+    "hooks": "^0.3.2",
+    "mocha": "^3.5.0",
+    "mongohooks": "^0.3.0",
+    "mongoose": "^4.11.5"
+  }
+}
