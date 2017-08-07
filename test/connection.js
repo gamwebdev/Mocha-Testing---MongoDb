@@ -3,7 +3,7 @@ mongoose.Promise = global.Promise;
 var hooks = require('hooks');
 
 before(function(done){
-  mongoose.connect('mongodb://localhost/testaroo');
+  mongoose.connect('mongodb://localhost/testaroo', { useMongoClient: true });
   mongoose.connection.once('open', function(){
     console.log('connection has been made successfully');
     done();
